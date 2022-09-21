@@ -1,8 +1,11 @@
-const btn = document.querySelectorAll('.btn')
+const btn = document.querySelectorAll('.content__block-button')
 for (let i = 0; i < btn.length; i++) {
-    btn[i].addEventListener('click', function () {
-        this.innerHTML = (this.innerHTML === 'ДОБАВЛЕНО') ? this.innerHTML = 'ДОБАВИТЬ В КОРЗИНУ' : this.innerHTML = 'ДОБАВЛЕНО';
-    })
+     btn[i].addEventListener('click', function () {
+      
+         this.innerHTML = (this.innerHTML === 'ДОБАВЛЕНО') ? this.innerHTML = 'ДОБАВИТЬ В КОРЗИНУ' : this.innerHTML = 'ДОБАВЛЕНО';
+     })
+   
+        
 }
 
 const data = [
