@@ -55,9 +55,11 @@
     font-family: "roboto-black";    
     text-align: center;
     color: #FFFFFF;
-
     &:hover {
         background: #22943C;
         transition: 0.5s;
     }
+}
+.button__disabled{
+    pointer-events: none;
 }

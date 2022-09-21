@@ -56,3 +56,7 @@
   background: #22943C;
   transition: 0.5s;
 }
+
+.button__disabled {
+  pointer-events: none;
+}
