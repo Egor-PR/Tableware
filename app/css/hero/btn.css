@@ -1,0 +1,16 @@
+.btn {
+  padding: 18px 51px 18px 51px;
+  border: none;
+  border-radius: 6px;
+  background: #2CC34F;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto";
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn:hover {
+  background: #22943C;
+  transition: 0.5s;
+}
